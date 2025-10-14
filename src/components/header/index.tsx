@@ -1,7 +1,7 @@
 import React from 'react';
 // import router from 'next/router';
 
-import useWindowSize from '../../hooks/useWindowSize';
+// import useWindowSize from '../../hooks/useWindowSize';
 
 import * as S from './styles';
 
@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <S.MainContainer>
-      <S.Title>ChatBot</S.Title>
+      <S.Title>Explica IR Bot</S.Title>
     </S.MainContainer>
   );
 };
