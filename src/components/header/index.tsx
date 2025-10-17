@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <S.MainContainer>
-      <S.Title>MirassolBot</S.Title>
+      <S.Title>Chat IR Brasil</S.Title>
     </S.MainContainer>
   );
 };
