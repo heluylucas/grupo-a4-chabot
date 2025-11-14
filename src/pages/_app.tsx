@@ -10,11 +10,12 @@ function MyApp({ Component, pageProps }: AppProps) {
         <GlobalStyles />
         <Head>
           <link
-            rel='shortcut icon'
-            href='/public/globe.svg'
-            type='image/x-icon'
+            rel='icon'
+            href='../components/header/logo_impost.png'
+            type='image/png'
+            sizes='png'
           />
-          <title>Chatbot</title>
+          <title>ImpostinhA</title>
         </Head>
         <Component {...pageProps} />
       </AppProvider>

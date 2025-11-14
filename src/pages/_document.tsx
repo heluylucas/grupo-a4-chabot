@@ -42,12 +42,6 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <link
-            rel='icon'
-            href='../components/header/logo_impost.png'
-            type='image/png'
-            sizes='png'
-          />
-          <link
             href='https://fonts.googleapis.com/css2?family=Montserrat&display=optional'
             rel='stylesheet'
           />
