@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <S.MainContainer>
-      <S.Title>Chat IR Brasil</S.Title>
+      <S.Title>ImpostinhIA</S.Title>
     </S.MainContainer>
   );
 };

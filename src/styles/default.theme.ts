@@ -1,7 +1,7 @@
 export const theme = {
   colors: {
     primary: {
-      darkBlue: '#171923',
+      darkBlue: '#fdf7e4',
       lightBlue: '#1e293b',
       Orange: '#ff5924',
       White: '#ffffff',
