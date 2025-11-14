@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <AppProvider>
         <GlobalStyles />
         <Head>
-          <link rel='icon' href='/favicon.ico' sizes='any' />
+          <link rel='icon' href='./favicon.ico' sizes='any' />
           <title>ImpostinhA</title>
         </Head>
         <Component {...pageProps} />
