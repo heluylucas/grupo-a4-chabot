@@ -1,4 +1,7 @@
 import React from 'react';
+import Image from 'next/image';
+
+import Logo from './logo_impost.png';
 // import router from 'next/router';
 
 // import useWindowSize from '../../hooks/useWindowSize';
@@ -10,7 +13,7 @@ const Header = () => {
 
   return (
     <S.MainContainer>
-      <S.Title>ImpostinhIA</S.Title>
+      <Image src={Logo} alt={''} height={40} />
     </S.MainContainer>
   );
 };
