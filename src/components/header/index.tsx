@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <S.MainContainer>
-      <Image src={Logo} alt={''} height={40} />
+      <Image src={Logo} alt={''} height={80} />
     </S.MainContainer>
   );
 };
