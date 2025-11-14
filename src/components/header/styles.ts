@@ -3,11 +3,11 @@ import { theme } from '../../styles/default.theme';
 
 export const MainContainer = styled.div`
     width: 100%;
-    height: 60px;
+    height: 100px;
     position: fixed;
     z-index: 1150;
     top: 0;
-    padding: 24px;
+    padding: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
