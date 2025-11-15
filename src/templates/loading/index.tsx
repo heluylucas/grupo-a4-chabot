@@ -11,12 +11,12 @@ const Loading: React.FC = () => {
   const size = useWindowSize();
   const router = useRouter();
 
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     router.push('/chatbot');
-  //   }, 5000);
-  //   return () => clearTimeout(timer);
-  // }, [router]);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      router.push('/chatbot');
+    }, 5000);
+    return () => clearTimeout(timer);
+  }, [router]);
 
   return (
     <>
