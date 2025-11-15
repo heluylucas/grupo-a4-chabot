@@ -11,18 +11,40 @@ const Loading: React.FC = () => {
   const size = useWindowSize();
   const router = useRouter();
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      router.push('/chatbot');
-    }, 5000);
-    return () => clearTimeout(timer);
-  }, [router]);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     router.push('/chatbot');
+  //   }, 5000);
+  //   return () => clearTimeout(timer);
+  // }, [router]);
 
   return (
     <>
       <S.MainContainer height={size.height}>
-        <Image src={Logo} alt={''} height={240} style={{ marginBottom: 48 }} />
-        <PropagateLoader color='#0B4A5A' size={20} />
+        <Image
+          src={Logo}
+          alt={''}
+          height={
+            size.width
+              ? size.width >= 600
+                ? 240
+                : (size.width / 600) * 240
+              : 200
+          }
+          style={{
+            marginBottom: size.width
+              ? size.width >= 600
+                ? 48
+                : (size.width / 600) * 48
+              : 32,
+          }}
+        />
+        <PropagateLoader
+          color='#0B4A5A'
+          size={
+            size.width ? (size.width >= 600 ? 20 : (size.width / 600) * 20) : 20
+          }
+        />
       </S.MainContainer>
     </>
   );
