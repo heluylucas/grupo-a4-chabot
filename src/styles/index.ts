@@ -24,6 +24,7 @@ export const GlobalStyles = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         font-family: Montserrat;
+        background-color: #F7F1DA;
     }
     button {
         outline: none;
