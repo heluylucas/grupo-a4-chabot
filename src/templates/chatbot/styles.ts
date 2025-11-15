@@ -11,7 +11,7 @@ export const MainContainer = styled.div<{ height?: number }>`
     padding-bottom: 60px;
     width: 100%;
     height: ${(props) => (props.height ? `${props.height}px` : 'auto')};
-    background-color: ${theme.colors.primary.darkBlue};
+    background-color: ${theme.colors.primary.background};
 `;
 
 export const ButtonsContainer = styled.div`

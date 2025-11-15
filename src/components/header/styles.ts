@@ -11,7 +11,7 @@ export const MainContainer = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: ${theme.colors.primary.darkBlue};
+    background-color: ${theme.colors.primary.background};
 `;
 
 export const Title = styled.h1`

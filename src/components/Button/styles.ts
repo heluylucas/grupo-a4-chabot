@@ -28,7 +28,7 @@ export const Button = styled.button<ButtonProps>`
 
     background-color: ${(props) => {
       if (props.outlined) {
-        return theme.colors.primary.darkBlue;
+        return theme.colors.primary.background;
       } else {
         return theme.colors.primary.Orange;
       }
@@ -43,7 +43,7 @@ export const Button = styled.button<ButtonProps>`
     :hover {
         background-color: ${(props) => {
           if (props.outlined) {
-            return theme.colors.primary.darkBlue;
+            return theme.colors.primary.background;
           } else {
             return theme.colors.primary.Orange;
           }
@@ -67,18 +67,18 @@ export const Button = styled.button<ButtonProps>`
           if (props.outlined) {
             return theme.colors.primary.White;
           } else {
-            return theme.colors.primary.darkBlue;
+            return theme.colors.primary.background;
           }
         }};
 
         border: 0.1rem solid
             ${(props) =>
-              props.outlined ? theme.colors.primary.darkBlue : 'none'};
+              props.outlined ? theme.colors.primary.background : 'none'};
 
         p {
             color: ${(props) =>
               props.outlined
-                ? theme.colors.primary.darkBlue
+                ? theme.colors.primary.background
                 : theme.colors.primary.White};
 
             font-family: 'Montserrat';
